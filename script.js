@@ -4,11 +4,12 @@ const hqs = [
     imagem: "https://archive.org/download/ActionComics001/ActionComics001.jpg",
     pdf: "https://archive.org/download/ActionComics001/ActionComics001.pdf"
   },
-  {
-    nome: "Superman #1 (1939)",
-    imagem: "https://archive.org/download/Superman_1/Superman1.jpg",
-    pdf: "https://archive.org/download/Superman_1/Superman_1.pdf"
-  },
+ {
+  nome: "Superman #1 (1939)",
+  imagem: "https://archive.org/download/superman01_202008/superman01.jpg",
+  pdf: "https://archive.org/download/superman01_202008/Superman01.pdf"
+},
+
   {
     nome: "Detective Comics #27 (Batman)",
     imagem: "https://upload.wikimedia.org/wikipedia/en/0/0d/Detective_Comics_27.jpg",
