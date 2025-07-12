@@ -38,9 +38,10 @@ hqs.forEach(hq => {
   card.innerHTML = `
     <img src="${hq.imagem}" alt="${hq.nome}">
     <h3>${hq.nome}</h3>
-    <a href="ler.html?pdf=${encodeURIComponent(hq.pdf)}" target="_blank" rel="noopener noreferrer">Ler HQ</a>
+    <a href="${hq.pdf}" target="_blank" rel="noopener noreferrer">Ler HQ</a>
   `;
   hqList.appendChild(card);
 });
+
 
 
