@@ -1,0 +1,51 @@
+
+body {
+  margin: 0;
+  background-color: #101010;
+  font-family: sans-serif;
+  color: #fff;
+}
+header {
+  background-color: #1f1f1f;
+  text-align: center;
+  padding: 30px 10px;
+}
+main {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+.hq-card {
+  background-color: #1b1b1b;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.3s;
+}
+.hq-card:hover {
+  transform: scale(1.05);
+}
+.hq-card img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+}
+.hq-card h3 {
+  margin: 10px;
+  font-size: 16px;
+}
+.hq-card a {
+  display: inline-block;
+  margin-bottom: 15px;
+  padding: 8px 15px;
+  background-color: #ff4747;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #1f1f1f;
+}
