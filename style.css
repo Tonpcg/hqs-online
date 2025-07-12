@@ -1,14 +1,13 @@
-
 body {
   margin: 0;
   background-color: #101010;
-  font-family: sans-serif;
+  font-family: Arial, sans-serif;
   color: #fff;
 }
 header {
   background-color: #1f1f1f;
-  text-align: center;
   padding: 30px 10px;
+  text-align: center;
 }
 main {
   display: grid;
@@ -21,7 +20,8 @@ main {
   border-radius: 10px;
   overflow: hidden;
   text-align: center;
-  transition: transform 0.3s;
+  transition: transform 0.3s ease;
+  box-shadow: 0 0 10px rgba(0,0,0,0.7);
 }
 .hq-card:hover {
   transform: scale(1.05);
@@ -45,7 +45,8 @@ main {
   border-radius: 5px;
 }
 footer {
+  background-color: #1f1f1f;
   text-align: center;
   padding: 15px;
-  background-color: #1f1f1f;
 }
+
