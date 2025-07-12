@@ -1,68 +1,35 @@
 const hqs = [
   {
-    nome: "Action Comics #1 (1938)",
-    imagem: "https://archive.org/download/ActionComics001/ActionComics001.jpg",
-    pdf: "https://archive.org/download/ActionComics001/ActionComics001.pdf"
+    nome: "Superman (1938 Issue 1)",
+    imagem: "https://archive.org/services/img/superman-1938-issue-1",
+    pdf: "https://archive.org/download/superman-1938-issue-1/superman-1938-issue-1.pdf"
   },
- {
-  nome: "Superman #1 (1939)",
-  imagem: "https://archive.org/download/superman01_202008/superman01.jpg",
-  pdf: "https://archive.org/download/superman01_202008/Superman01.pdf"
-},
-
   {
-    nome: "Detective Comics #27 (Batman)",
-    imagem: "https://upload.wikimedia.org/wikipedia/en/0/0d/Detective_Comics_27.jpg",
-    pdf: "https://archive.org/download/Detective_Comics_27/Detective_Comics_27.pdf"
+    nome: "Action Comics #1 (1938)",
+    imagem: "https://archive.org/services/img/action-comics-1-1",
+    pdf: "https://archive.org/download/action-comics-1-1/action-comics-1-1.pdf"
+  },
+  {
+    nome: "Detective Comics #27 (1939)",
+    imagem: "https://archive.org/services/img/detective-comics-27",
+    pdf: "https://archive.org/download/detective-comics-27/detective-comics-27.pdf"
   },
   {
     nome: "Wonder Woman #1",
-    imagem: "https://upload.wikimedia.org/wikipedia/en/f/f8/Wonder_Woman_1.jpg",
-    pdf: "https://archive.org/download/Wonder_Woman_1/Wonder_Woman_1.pdf"
+    imagem: "https://archive.org/services/img/wonder-woman-1",
+    pdf: "https://archive.org/download/wonder-woman-1/wonder-woman-1.pdf"
   },
   {
     nome: "The Spirit #1",
-    imagem: "https://archive.org/download/TheSpirit1/TheSpirit1.jpg",
-    pdf: "https://archive.org/download/TheSpirit1/TheSpirit1.pdf"
-  },
-  {
-    nome: "Captain Marvel (Whiz Comics #2)",
-    imagem: "https://upload.wikimedia.org/wikipedia/en/d/d7/Captain_Marvel_Whiz_Comics_No_1.jpg",
-    pdf: "https://archive.org/download/WhizComicsNo.2/WhizComicsNo.2.pdf"
-  },
-  {
-    nome: "Flash Comics #1",
-    imagem: "https://archive.org/download/FlashComics001/FlashComics001.jpg",
-    pdf: "https://archive.org/download/FlashComics001/FlashComics001.pdf"
-  },
-  {
-    nome: "Green Lantern #1",
-    imagem: "https://archive.org/download/GreenLantern001/GreenLantern001.jpg",
-    pdf: "https://archive.org/download/GreenLantern001/GreenLantern001.pdf"
-  },
-  {
-    nome: "Marvel Comics #1",
-    imagem: "https://archive.org/download/MarvelComics001/MarvelComics001.jpg",
-    pdf: "https://archive.org/download/MarvelComics001/MarvelComics001.pdf"
-  },
-  {
-    nome: "Detective Comics #38 (Robin estreia)",
-    imagem: "https://archive.org/download/DetectiveComics038/DetectiveComics038.jpg",
-    pdf: "https://archive.org/download/DetectiveComics038/DetectiveComics038.pdf"
+    imagem: "https://archive.org/services/img/the-spirit-1",
+    pdf: "https://archive.org/download/the-spirit-1/the-spirit-1.pdf"
   }
 ];
 
 const hqList = document.getElementById("hq-list");
 hqs.forEach(hq => {
-  const card = document.createElement("div");
-  card.className = "hq-card";
-  card.innerHTML = `
-    <img src="${hq.imagem}" alt="${hq.nome}">
-    <h3>${hq.nome}</h3>
-    <a href="${hq.pdf}" target="_blank" rel="noopener noreferrer">Ler HQ</a>
-  `;
-  hqList.appendChild(card);
-});
+  const card
+
 
 
 
